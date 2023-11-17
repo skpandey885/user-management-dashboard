@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# User Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application featuring a user management dashboard with two tabs: User Details and Account Creation.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Welcome to the User Management Dashboard project! This web application allows users to view user details and create new accounts. The project is built using React.js with a focus on clean design and optimal user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+1. **User Details Tab:**
+   - Fetch user data from a <a href="https://jsonplaceholder.typicode.com/users">JSON placeholder database</a>.
+   - Implemented a searchable table displaying user information: Username, Email, Phone, ID, and Creation date.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Account Creation Tab:**
+   - Created a form with fields for username and password.
+   - Implemented dummy request handling upon form submission.
 
-### `npm run build`
+3. **Dashboard Interface:**
+   - Designed a clean and intuitive dashboard layout with following features: User Details and Account Creation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Tech Stack:**
+   - React.js for frontend development.
+   - Styling using Tailwind CSS.
+   - JSON Placeholder for temporary users data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **Performance:**
+   - Achieved high Lighthouse score 92 to optimize user experience.
+   - <img width="422" alt="Screenshot 2023-11-17 at 8 37 17 PM" src="https://github.com/skpandey885/user-management-dashboard/assets/78532081/887c864a-4ca2-4903-8d71-d86022529781">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React.js
+- Tailwind CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/user-management-dashboard.git
 
-## Learn More
+# Navigate to the project directory
+cd user-management-dashboard
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Install dependencies
+npm install
+```
+### Running the App
+```bash
+# Run on Local host
+npm run start
+```
